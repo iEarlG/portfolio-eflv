@@ -8,6 +8,7 @@ import earlProfile from '../assets/earl-profile.png';
 import email from '../assets/email.png';
 import spotify from '../assets/spotify.png';
 import git from '../assets/git.png';
+import mobile from '../assets/mobile.png';
 import react from '../assets/react.png';
 import sass from '../assets/sass.png';
 
@@ -26,6 +27,7 @@ export default {
     email,
     spotify,
     git,
+    mobile,
     react,
     sass,
     bgIMG,
