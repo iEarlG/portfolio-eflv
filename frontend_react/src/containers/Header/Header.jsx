@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { AppWrap } from '../../wrapper';
+
 import { images } from '../../constants';
 import './Header.scss';
 
@@ -25,15 +26,15 @@ const Header = () => {
       >
         <div className="app_header-badge">
           <div className="badge-cmp app_flex">
-            <span>🤙</span>
+            <span>👋🏽</span>
             <div style={{ marginLeft: 20 }}>
               <p className="p-text">Hello, I am</p>
               <h1 className="head-text">EARL</h1>
             </div>
           </div>
           <div className="tag-cmp app_flex">
-            <p className="p-text">Mobile and Web Developer</p>
-            <p className="p-text">Freelance</p>
+            <p className="p-text">Junior Web Developer</p>
+            <p className="p-text">Computer Literate</p>
           </div>
         </div>
       </motion.div>
@@ -44,7 +45,7 @@ const Header = () => {
         className="app_header-img"
       >
         <img 
-          src={images.primaryProfile}
+          src={images.earlProfile}
           alt="profile_bg" 
         />
         <motion.img
@@ -61,7 +62,7 @@ const Header = () => {
         whileInView={scaleVariants.whileInView}
         className="app_header-circles"
       >
-        {[images.tailwind, images.react, images.html].map((circle, index) => (
+        {[images.git, images.react, images.sass].map((circle, index) => (
           <div className="circle-cmp app_flex" 
             key={`circle-${index}`}
           >

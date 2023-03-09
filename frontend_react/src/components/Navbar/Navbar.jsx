@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav className="app_navbar">
       <div className="app_navbar-logo">
         <img 
-          src={images.primaryLogo}
+          src={images.earlLogo}
           alt="logo" 
         />
       </div>
